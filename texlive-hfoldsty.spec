@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /fonts/hfoldsty
+# catalog-date 2007-10-03 12:18:35 +0200
+# catalog-license gpl
+# catalog-version 1.13
 Name:		texlive-hfoldsty
 Version:	1.13
 Release:	1
@@ -726,6 +732,7 @@ pdfcprot package.
 %doc %{_texmfdistdir}/source/fonts/hfoldsty/Makefile
 %doc %{_texmfdistdir}/source/fonts/hfoldsty/hfoldsty.dtx
 %doc %{_texmfdistdir}/source/fonts/hfoldsty/hfoldsty.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -736,3 +743,5 @@ pdfcprot package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
