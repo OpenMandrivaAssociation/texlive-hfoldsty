@@ -1,12 +1,12 @@
-# revision 15878
+# revision 25011
 # category Package
 # catalog-ctan /fonts/hfoldsty
-# catalog-date 2007-10-03 12:18:35 +0200
+# catalog-date 2012-01-02 14:24:13 +0100
 # catalog-license gpl
-# catalog-version 1.13
+# catalog-version 1.15
 Name:		texlive-hfoldsty
-Version:	1.13
-Release:	2
+Version:	1.15
+Release:	1
 Summary:	Old style numerals with EC fonts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/hfoldsty
@@ -706,15 +706,12 @@ pdfcprot package.
 %{_texmfdistdir}/tex/latex/hfoldsty/ts1hfott.fd
 %{_texmfdistdir}/tex/latex/hfoldsty/ts1hfovtt.fd
 %doc %{_texmfdistdir}/doc/fonts/hfoldsty/ChangeLog
+%doc %{_texmfdistdir}/doc/fonts/hfoldsty/Makefile
 %doc %{_texmfdistdir}/doc/fonts/hfoldsty/README
 %doc %{_texmfdistdir}/doc/fonts/hfoldsty/TODO
-%doc %{_texmfdistdir}/doc/fonts/hfoldsty/TS1.etx
-%doc %{_texmfdistdir}/doc/fonts/hfoldsty/dostretch.mtx
-%doc %{_texmfdistdir}/doc/fonts/hfoldsty/generate.sh
 %doc %{_texmfdistdir}/doc/fonts/hfoldsty/gpl.txt
 %doc %{_texmfdistdir}/doc/fonts/hfoldsty/hfoldsty.pdf
 %doc %{_texmfdistdir}/doc/fonts/hfoldsty/hfoldsty.xml
-%doc %{_texmfdistdir}/doc/fonts/hfoldsty/t19.etx
 %doc %{_texmfdistdir}/doc/fonts/hfoldsty/test-eco-hfo.tex
 %doc %{_texmfdistdir}/doc/fonts/hfoldsty/test-eco.tex
 %doc %{_texmfdistdir}/doc/fonts/hfoldsty/test-hfo.tex
@@ -722,6 +719,11 @@ pdfcprot package.
 %doc %{_texmfdistdir}/source/fonts/hfoldsty/Makefile
 %doc %{_texmfdistdir}/source/fonts/hfoldsty/hfoldsty.dtx
 %doc %{_texmfdistdir}/source/fonts/hfoldsty/hfoldsty.ins
+%doc %{_texmfdistdir}/source/fonts/hfoldsty/src/Makefile
+%doc %{_texmfdistdir}/source/fonts/hfoldsty/src/TS1.etx
+%doc %{_texmfdistdir}/source/fonts/hfoldsty/src/dostretch.mtx
+%doc %{_texmfdistdir}/source/fonts/hfoldsty/src/generate.sh
+%doc %{_texmfdistdir}/source/fonts/hfoldsty/src/t19.etx
 
 #-----------------------------------------------------------------------
 %prep
