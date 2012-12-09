@@ -734,3 +734,21 @@ pdfcprot package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Mon Jan 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.15-1
++ Revision: 758891
+- Update to latest upstream release
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.13-2
++ Revision: 752548
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.13-1
++ Revision: 718617
+- texlive-hfoldsty
+- texlive-hfoldsty
+- texlive-hfoldsty
+- texlive-hfoldsty
+
