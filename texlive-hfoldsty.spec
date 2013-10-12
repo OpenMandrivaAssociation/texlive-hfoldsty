@@ -1,7 +1,7 @@
-# revision 25011
+# revision 29349
 # category Package
 # catalog-ctan /fonts/hfoldsty
-# catalog-date 2012-01-02 14:24:13 +0100
+# catalog-date 2012-07-15 22:58:12 +0200
 # catalog-license gpl
 # catalog-version 1.15
 Name:		texlive-hfoldsty
@@ -734,21 +734,3 @@ pdfcprot package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Mon Jan 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.15-1
-+ Revision: 758891
-- Update to latest upstream release
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.13-2
-+ Revision: 752548
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.13-1
-+ Revision: 718617
-- texlive-hfoldsty
-- texlive-hfoldsty
-- texlive-hfoldsty
-- texlive-hfoldsty
-
