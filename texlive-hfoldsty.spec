@@ -6,7 +6,7 @@
 # catalog-version 1.15
 Name:		texlive-hfoldsty
 Version:	1.15
-Release:	9
+Release:	10
 Summary:	Old style numerals with EC fonts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/hfoldsty
