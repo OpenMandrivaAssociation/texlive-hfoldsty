@@ -1,19 +1,13 @@
-# revision 29349
-# category Package
-# catalog-ctan /fonts/hfoldsty
-# catalog-date 2012-07-15 22:58:12 +0200
-# catalog-license gpl
-# catalog-version 1.15
 Name:		texlive-hfoldsty
-Version:	1.15
-Release:	10
+Version:	29349
+Release:	1
 Summary:	Old style numerals with EC fonts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/hfoldsty
 License:	GPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hfoldsty.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hfoldsty.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hfoldsty.source.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hfoldsty.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hfoldsty.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hfoldsty.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -28,12 +22,12 @@ with guillemets, and support for character protruding using the
 pdfcprot package.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -727,7 +721,8 @@ pdfcprot package.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a1 -a2
+%autopatch -p1
 
 %build
 
