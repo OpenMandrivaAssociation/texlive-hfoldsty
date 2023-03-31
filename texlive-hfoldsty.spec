@@ -1,6 +1,6 @@
 Name:		texlive-hfoldsty
 Version:	29349
-Release:	1
+Release:	2
 Summary:	Old style numerals with EC fonts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/hfoldsty
