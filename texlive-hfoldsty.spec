@@ -3,7 +3,7 @@ Version:	29349
 Release:	2
 Summary:	Old style numerals with EC fonts
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/hfoldsty
+URL:		https://www.ctan.org/tex-archive/fonts/hfoldsty
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hfoldsty.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hfoldsty.doc.r%{version}.tar.xz
